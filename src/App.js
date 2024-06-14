@@ -31,9 +31,7 @@ const App = () => {
         {currentMenu === 'bebidas' && <Bebidas imageUrl={menus.bebidas} />}
         {currentMenu === 'outros' && <Outros imageUrl={menus.outros} />}
       </div>
-      <footer className="footer">
-        {/* Conteúdo do footer */}
-      </footer>
+      <footer className="footer"></footer>
     </>
   );
 };
